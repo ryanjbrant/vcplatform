@@ -1982,7 +1982,7 @@ body::-webkit-scrollbar-thumb {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(30deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(90deg, rgba(0,0,0,.9) 10%, rgba(0,0,0,.5) 50%, rgba(0,0,0,0) 100%);
   z-index: 1;
 }
 .hero__title {
@@ -2328,8 +2328,8 @@ body::-webkit-scrollbar-thumb {
   height: 32px;
   border-radius: 16px;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 10px;
+  left: 10px;
   border: 2px solid #6164ff;
   color: #fff;
   font-size: 12px;

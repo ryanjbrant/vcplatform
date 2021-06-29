@@ -19,7 +19,7 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="author" content="Dmitry Volkov">
-	<title>Unifund – NFT Marketplace HTML Template</title>
+	<title>Unifund – Contract Marketplace HTML Template</title>
 
 </head>
 <body>
@@ -125,7 +125,7 @@
 							</a>
 							<h1 class="author__name"><a href="author.html">Justin King</a></h1>
 							<h2 class="author__nickname"><a href="author.html">@jkmoney</a></h2>
-							<p class="author__text">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
+							<p class="author__text">I am here to build my empire. Making millions baby when everyone else is sleeping.</p>
 							<div class="author__code">
 								<input type="text" value="XAVUW3sw3ZUnifundcLtemEfX3tGuX2plateWdh" id="author-code">
 								<button type="button">
@@ -158,7 +158,7 @@
 				<div class="col-12 col-xl-9">
 					<!-- title -->
 					<div class="main__title main__title--create">
-						<h2>Create collectible item</h2>
+						<h2>Your Offer</h2>
 					</div>
 					<!-- end title -->
 
@@ -190,7 +190,37 @@
 							<div class="col-12">
 								<div class="sign__group">
 									<label class="sign__label" for="description">Description</label>
-									<textarea id="description" name="description" class="sign__textarea" placeholder="e. g. 'After purchasing you will able to recived...'"></textarea>
+									<textarea id="description" name="description" class="sign__textarea" placeholder="e. g. 'After purchasing you will able to recive...'"></textarea>
+								</div>
+							</div>
+
+							<div class="col-12">
+								<div class="sign__group">
+									<label class="sign__label" for="businessplan">Business Plan</label>
+									<textarea id="businessplan" name="businessplan" class="sign__textarea" placeholder="e. g. 'Our business goal is to...'"></textarea>
+								</div>
+							</div>
+							<div class="col-12 col-md-4">
+								<div class="sign__group">
+									<label class="sign__label" for="goal">Goal</label>
+									<input id="goal" type="text" name="goal" class="sign__input" placeholder="e. g. $100,000">
+								</div>
+							</div>
+
+							<div class="col-12 col-md-4">
+								<div class="sign__group">
+									<label class="sign__label" for="size">Reward</label>
+									<input id="reward" type="text" name="reward" class="sign__input" placeholder="e. g. A limited edition item">
+								</div>
+							</div>
+
+							<div class="col-12 col-md-4">
+								<div class="sign__group">
+									<label class="sign__label" for="votingrights">Voting Rights</label>
+									<select id="votingrights" name="votingrights" class="sign__select">
+										<option value="1">Yes</option>
+										<option value="2">No</option>
+									</select>
 								</div>
 							</div>
 
@@ -198,6 +228,7 @@
 								<div class="sign__group">
 									<label class="sign__label" for="royalties">Royalties</label>
 									<select id="royalties" name="royalties" class="sign__select">
+										<option value="1">0%</option>
 										<option value="1">5%</option>
 										<option value="2">10%</option>
 										<option value="3">20%</option>
@@ -207,15 +238,56 @@
 
 							<div class="col-12 col-md-4">
 								<div class="sign__group">
-									<label class="sign__label" for="size">Size</label>
-									<input id="size" type="text" name="size" class="sign__input" placeholder="e. g. Size">
+									<label class="sign__label" for="equity">Equity</label>
+									<select id="equity" name="equity" class="sign__select">
+										<option value="1">0.0%</option>
+										<option value="1">0.5%</option>
+										<option value="2">1.0%</option>
+										<option value="3">1.5%</option>
+										<option value="1">2.0%</option>
+										<option value="2">2.5%</option>
+										<option value="3">3.0%</option>
+										<option value="1">3.5%</option>
+										<option value="2">4.0%</option>
+										<option value="3">4.5%</option>
+										<option value="1">5.0%</option>
+										<option value="1">10.0%</option>
+										<option value="2">15.0%</option>
+										<option value="3">20.0%</option>
+										<option value="1">25.0%</option>
+										<option value="2">30.0%</option>
+										<option value="3">35.0%</option>
+										<option value="1">40.0%</option>
+										<option value="2">45.0%</option>
+										<option value="3">50.0%</option>
+									</select>
 								</div>
 							</div>
 
 							<div class="col-12 col-md-4">
 								<div class="sign__group">
-									<label class="sign__label" for="propertie">Propertie</label>
-									<input id="propertie" type="text" name="propertie" class="sign__input" placeholder="Subject">
+									<label class="sign__label" for="return">Return</label>
+									<select id="return" name="return" class="sign__select">
+										<option value="1">0.5%</option>
+										<option value="2">1.0%</option>
+										<option value="3">1.5%</option>
+										<option value="1">2.0%</option>
+										<option value="2">2.5%</option>
+										<option value="3">3.0%</option>
+										<option value="1">3.5%</option>
+										<option value="2">4.0%</option>
+										<option value="3">4.5%</option>
+										<option value="1">5.0%</option>
+										<option value="1">10.0%</option>
+										<option value="2">15.0%</option>
+										<option value="3">20.0%</option>
+										<option value="1">25.0%</option>
+										<option value="2">30.0%</option>
+										<option value="3">35.0%</option>
+										<option value="1">40.0%</option>
+										<option value="2">45.0%</option>
+										<option value="3">50.0%</option>
+									</select>
 								</div>
 							</div>
 
@@ -258,7 +330,7 @@
 					<div class="footer__logo">
 						<img src="img/logo.svg" alt="">
 					</div> 
-					<p class="footer__tagline">Digital marketplace for crypto collectibles <br>and non-fungible tokens (NFTs). <br>Buy, sell, and discover exclusive digital assets.</p>
+					<p class="footer__tagline">Digital marketplace for crypto collectibles <br>and non-fungible tokens (Contracts). <br>Buy, sell, and discover Contract Titles.</p>
 
 					<div class="footer__lang">
 						<a class="footer__lang-btn" href="#" role="button" id="dropdownLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
