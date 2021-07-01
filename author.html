@@ -47,22 +47,7 @@
 						<a href="activity.html" class="header__nav-link">Activity</a>
 					</li>
 					<li class="header__nav-item">
-						<a class="header__nav-link" href="#" role="button" id="dropdownMenu0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Community <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"/></svg></a>
-
-						<ul class="dropdown-menu header__nav-menu" aria-labelledby="dropdownMenu0">
-							<li><a href="token.html">Unifund</a></li>
-							<li class="dropdown-submenu">
-								<a class="dropdown-item" href="#" role="button" id="dropdownMenuSub" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"/></svg></a>
-
-								<ul class="dropdown-menu header__nav-menu" aria-labelledby="dropdownMenuSub">
-									<li><a href="blog.html">Blog style 1</a></li>
-									<li><a href="blog2.html">Blog style 2</a></li>
-									<li><a href="article.html">Article</a></li>
-								</ul>
-							</li>
-							<li><a href="faq.html">Help center</a></li>
-							<li><a href="contacts.html">Contacts</a></li>
-						</ul>
+						<a href="launch.html" class="header__nav-link">Launch</a>
 					</li>
 					<li class="header__nav-item">
 						<a class="header__nav-link" href="#" role="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"/></svg></a>
@@ -984,7 +969,7 @@
 									<form action="#" class="sign__form sign__form--profile">
 										<div class="row">
 											<div class="col-12">
-												<h4 class="sign__title">Profile details</h4>
+												<h4 class="sign__title">Profile Details</h4>
 											</div>
 
 											<div class="col-12 col-md-6 col-lg-12 col-xl-6">
@@ -1071,6 +1056,93 @@
 									</form>
 								</div>
 								<!-- end password form -->
+							</div>
+							<div class="row row--grid">
+								<!-- details form -->
+								<div class="col-12 col-lg-6">
+									<form action="#" class="sign__form sign__form--profile">
+										<div class="row">
+											<div class="col-12">
+												<h4 class="sign__title">Business Details</h4>
+											</div>
+
+											<div class="col-12 col-md-6 col-lg-12 col-xl-6">
+												<div class="sign__group">
+													<label class="sign__label" for="ein">EIN</label>
+													<input id="ein" type="text" name="ein" class="sign__input" placeholder="e.g. XX-XXXXXXX">
+												</div>
+											</div>
+
+											<div class="col-12 col-md-6 col-lg-12 col-xl-6">
+												<div class="sign__group">
+													<label class="sign__label" for="businessname">Registered Business Name</label>
+													<input id="businessname" type="text" name="businessname" class="sign__input" placeholder="e.g. Bread Wizard LLC">
+												</div>
+											</div>
+
+											<div class="col-12 col-md-6 col-lg-12 col-xl-6">
+												<div class="sign__group">
+													<label class="sign__label" for="socialsecurity">Social Security</label>
+													<input id="socialsecurity" type="text" name="socialsecurity" class="sign__input" placeholder="e.g. XXX-XX-XXXX">
+												</div>
+											</div>
+
+											<div class="col-12 col-md-6 col-lg-12 col-xl-6">
+												<div class="sign__group">
+													<label class="sign__label" for="website">Website</label>
+													<input id="website" type="text" name="website" class="sign__input" placeholder="e.g. breadwizard.com">
+												</div>
+											</div>
+
+											<div class="col-12">
+												<button class="sign__btn" type="button">Save</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<!-- end details form -->
+
+								<!-- password form -->
+								<div class="col-12 col-lg-6">
+									<form action="#" class="sign__form sign__form--profile">
+										<div class="row">
+											<div class="col-12">
+												<h4 class="sign__title">Social Details</h4>
+											</div>
+											<div class="col-12 col-md-6 col-lg-12 col-xl-6">
+												<div class="sign__group">
+													<label class="sign__label" for="facebook">Facebook</label>
+													<input id="facebook" type="text" name="facebook" class="sign__input" placeholder="e.g. @breadwizard">
+												</div>
+											</div>
+											<div class="col-12 col-md-6 col-lg-12 col-xl-6">
+												<div class="sign__group">
+													<label class="sign__label" for="instagram">Instagram</label>
+													<input id="instagram" type="password" name="instagram" class="sign__input" placeholder="e.g. @breadwizard">
+												</div>
+											</div>
+
+											<div class="col-12 col-md-6 col-lg-12 col-xl-6">
+												<div class="sign__group">
+													<label class="sign__label" for="twitter">Twitter</label>
+													<input id="twitter" type="password" name="twitter" class="sign__input" placeholder="e.g. @breadwizard">
+												</div>
+											</div>
+
+											<div class="col-12 col-md-6 col-lg-12 col-xl-6">
+												<div class="sign__group">
+													<label class="sign__label" for="linkedin">Linkedin</label>
+													<input id="linkedin" type="password" name="linkedin" class="sign__input" placeholder="e.g. @breadwizard">
+												</div>
+											</div>
+
+											<div class="col-12">
+												<button class="sign__btn" type="button">Change</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<!-- end Business form -->
 							</div>
 						</div>
 					</div>

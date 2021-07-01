@@ -55,6 +55,7 @@ html {
 html,
 body {
   height: 100%;
+  overflow-x: hidden;
 }
 body {
   font-family: 'Open Sans', sans-serif;
@@ -241,6 +242,11 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 1440px) {
   .container {
     max-width: 1330px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1600px;
   }
 }
 /*==============================
@@ -897,7 +903,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: flex-start;
   align-items: flex-start;
   font-family: 'Inter', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   color: #fff;
   font-size: 30px;
   line-height: 140%;
@@ -919,7 +925,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: flex-start;
   align-items: flex-start;
   font-family: 'Inter', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   color: #fff;
   font-size: 26px;
   line-height: 150%;
@@ -947,7 +953,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: flex-start;
   align-items: flex-start;
   font-family: 'Inter', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 24px;
   color: #fff;
   margin-bottom: 0;
@@ -1929,7 +1935,7 @@ body::-webkit-scrollbar-thumb {
 .hero {
   display: block;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 0;
   position: relative;
 }
 .hero .owl-dots {
@@ -1960,7 +1966,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #6164ff;
 }
 .hero .owl-stage-outer {
-  border-radius: 16px;
+  border-radius: 0;
 }
 .hero__slide {
   display: flex;
@@ -1969,7 +1975,7 @@ body::-webkit-scrollbar-thumb {
   align-items: flex-start;
   width: 100%;
   min-height: 360px;
-  border-radius: 16px;
+  border-radius: 0;
   overflow: hidden;
   padding: 40px 20px;
   position: relative;
@@ -1985,11 +1991,18 @@ body::-webkit-scrollbar-thumb {
   background: linear-gradient(90deg, rgba(0,0,0,.9) 10%, rgba(0,0,0,.5) 50%, rgba(0,0,0,0) 100%);
   z-index: 1;
 }
+@media (min-width: 1200px) {
+  .hero {
+  height: 70vh;
+}
+.hero__slide {height: 70vh;}
+.hero__slide:before {height: 70vh;}
+}
 .hero__title {
   position: relative;
   z-index: 2;
   color: #fff;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 30px;
   font-family: 'Inter', sans-serif;
   margin-bottom: 0;
@@ -2009,6 +2022,7 @@ body::-webkit-scrollbar-thumb {
   line-height: 28px;
   margin-bottom: 0;
   margin-top: 15px;
+  max-width: 440px
 }
 .hero__btns {
   display: flex;
@@ -2115,7 +2129,7 @@ body::-webkit-scrollbar-thumb {
   }
   .hero__slide {
     padding: 60px;
-    padding-right: 50%;
+    /*padding-right: 50%;*/
   }
 }
 /*==============================
@@ -2506,7 +2520,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
   padding: 20px 20px 70px 20px;
   width: 100%;
@@ -2925,7 +2939,6 @@ body::-webkit-scrollbar-thumb {
   .asset__item {
     margin-top: 30px;
     height: auto;
-    min-height: calc(100% - 30px);
   }
   .asset__info {
     margin-top: 30px;

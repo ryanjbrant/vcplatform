@@ -37,7 +37,7 @@ $(document).ready(function () {
 		loop: true,
 		autoplay: false,
 		smartSpeed: 600,
-		autoHeight: true,
+		autoHeight: false,
 		items: 1,
 		responsive: {
 			0 : {
