@@ -2016,6 +2016,38 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 0;
   line-height: 140%;
 }
+.hero__reserve {
+  position: relative;
+  z-index: 2;
+  color: #a6a6a8;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  margin-bottom:0;
+  line-height: 140%;
+}
+.hero__value {
+  position: relative;
+  z-index: 2;
+  color: #a6a6a8;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  margin-bottom:0;
+  line-height: 140%;
+}
+.hero__price {
+  position: relative;
+  z-index: 2;
+  color: #fafafc;
+  font-weight: 600;
+  font-size: 26px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+  line-height: 140%;
+}
 .hero__title b {
   font-weight: 500;
 }
