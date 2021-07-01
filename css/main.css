@@ -2338,6 +2338,7 @@ body::-webkit-scrollbar-thumb {
   line-height: 100%;
   color: #16151a;
   margin-top: 10px;
+  font-weight: 600;
 }
 .card__likes {
   display: inline-flex;
