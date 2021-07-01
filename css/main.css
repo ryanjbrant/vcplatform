@@ -3671,7 +3671,7 @@ body::-webkit-scrollbar-thumb {
   display: block;
   width: 20px;
   height: 20px;
-  border: 2px solid #16151a;
+  border: 2px solid #fafafc;
   bottom: -2px;
   right: -2px;
   border-radius: 50%;
@@ -3772,7 +3772,7 @@ body::-webkit-scrollbar-thumb {
 }
 .author__follow--true {
   background-color: #6164ff;
-  color: #16151a;
+  color: #fafafc;
 }
 .author__follow--true:hover {
   background-color: #e0e0e3;
